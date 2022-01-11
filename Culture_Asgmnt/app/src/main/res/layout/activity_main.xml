@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtHelloWorld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtHelloWorld"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/RadGPets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/chkGreen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/chkBlue">
+
+        <RadioButton
+            android:id="@+id/radDog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnDog" />
+
+        <RadioButton
+            android:id="@+id/radCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnCat" />
+
+        <RadioButton
+            android:id="@+id/radBoth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnBoth" />
+
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/swchEffects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/swchEffects"
+        app:layout_constraintStart_toStartOf="@+id/swchMusic"
+        app:layout_constraintTop_toBottomOf="@+id/swchMusic" />
+
+    <Switch
+        android:id="@+id/swchMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/swchMusic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/chkBlue"
+        app:layout_constraintTop_toTopOf="@+id/chkBlue" />
+
+    <Switch
+        android:id="@+id/swchSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/swchSound"
+        app:layout_constraintStart_toStartOf="@+id/swchEffects"
+        app:layout_constraintTop_toBottomOf="@+id/swchEffects" />
+
+    <CheckBox
+        android:id="@+id/chkBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/chkGreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/chkGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/chkGreen"
+        app:layout_constraintStart_toStartOf="@+id/chkBlue"
+        app:layout_constraintTop_toBottomOf="@+id/chkBlue" />
+
+    <CheckBox
+        android:id="@+id/chkRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/chkRed"
+        app:layout_constraintStart_toStartOf="@+id/chkGreen"
+        app:layout_constraintTop_toBottomOf="@+id/chkGreen" />
+
+    <Button
+        android:id="@+id/btnYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnYes"
+        app:layout_constraintBottom_toBottomOf="@+id/btnMaybe"
+        app:layout_constraintEnd_toStartOf="@+id/btnMaybe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnMaybe" />
+
+    <Button
+        android:id="@+id/btnMaybe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="@string/btnMaybe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chkRed" />
+
+    <Button
+        android:id="@+id/btnNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnNo"
+        app:layout_constraintBottom_toBottomOf="@+id/btnMaybe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnMaybe"
+        app:layout_constraintTop_toTopOf="@+id/btnMaybe" />
+
+    <TextView
+        android:id="@+id/txtUserInterface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/txtUserInterface"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/tgbtnSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="@string/ON"
+        android:textOff="@string/OFF"
+        android:textOn="@string/ON"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMaybe" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

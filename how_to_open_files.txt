@@ -1,0 +1,16 @@
+1. Delete both gradlew and gradlew.bat files and .gradle folder if any. do not delete gradle folder
+
+2. create a new project to be used as reference (this can be deleted later.)
+
+3. open build.gradle file.
+
+	3.1. change the 'com.android.tools.build:gradle:' version to the updated version. Find the new version in the new project's build.gradle file.
+	3.2 if asked, allow the IDE to update the gradle file
+
+4. open the build.gradle file under app folder.
+
+	4.1 update the compileSdkVersion to updated version. find the new version in the new project's build.gradle file.
+
+	4.2 if applicable, update buildToolsVersion to update version. find the new version in the new project's build.gradle file.
+
+5. buildToolsVersion to what the IDE tells you too if you get and error.

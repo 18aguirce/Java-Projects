@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="OFF">オフ</string>
+    <string name="ON">オン</string>
+    <string name="app_name">Lab15_Culture_Asgmnt</string>
+    <string name="btnBoth">双方</string>
+    <string name="btnCat">ネコ</string>
+    <string name="btnDog">犬</string>
+    <string name="btnMaybe">多分</string>
+    <string name="btnNo">番号</string>
+    <string name="btnYes">はい</string>
+    <string name="chkBlue">青い</string>
+    <string name="chkGreen">緑</string>
+    <string name="chkRed">赤</string>
+    <string name="swchEffects">効果</string>
+    <string name="swchMusic">音楽</string>
+    <string name="swchSound">音</string>
+    <string name="txtHelloWorld">Cesar Vicente - こんにちは世界</string>
+    <string name="txtUserInterface">ユーザーインターフェース</string>
+</resources>

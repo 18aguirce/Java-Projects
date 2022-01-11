@@ -1,0 +1,10 @@
+com/example/lab06_fractions/MainActivity.java
+ com.example.lab06_fractions.MainActivity
+ com.example.lab06_fractions.MainActivity$1
+ com.example.lab06_fractions.MainActivity$2
+ com.example.lab06_fractions.MainActivity$3
+ com.example.lab06_fractions.MainActivity$4
+com/example/lab06_fractions/BuildConfig.java
+ com.example.lab06_fractions.BuildConfig
+com/example/lab06_fractions/Fraction.java
+ com.example.lab06_fractions.Fraction

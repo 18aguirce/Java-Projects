@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab15_Culture_Asgmnt</string>
+    <string name="btnBoth">Beide</string>
+    <string name="btnDog">Hund</string>
+    <string name="btnCat">Katze</string>
+    <string name="chkGreen">Grün</string>
+    <string name="chkBlue">Blau</string>
+    <string name="chkRed">rot</string>
+    <string name="swchMusic">Musik</string>
+    <string name="swchEffects">Auswirkungen</string>
+    <string name="swchSound">Klang</string>
+    <string name="btnYes">Ja</string>
+    <string name="btnMaybe">Könnte sein</string>
+    <string name="btnNo">Nein</string>
+    <string name="ON">Ein</string>
+    <string name="OFF">Aus</string>
+    <string name="txtUserInterface">Benutzeroberfläche</string>
+    <string name="txtHelloWorld">Cesar Vicente - Hallo Welt</string>
+</resources>
